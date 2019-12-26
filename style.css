@@ -1,0 +1,252 @@
+*{
+    margin :0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h4{
+    font-weight: 300;
+}
+/* Header */
+header{
+   
+    
+    border-bottom: .5px solid #a4b0be;
+}
+.container{
+    padding-top: 20px;
+    margin: auto;
+    width:1140px;
+    display:flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style:none;
+    
+}
+
+ul li{
+    display:inline-block;
+    padding: 10px;
+}
+
+a  {
+    text-decoration: none;
+    color:black;
+    transition-delay: 2s;
+    
+
+}
+a:hover{
+    color: chocolate;
+
+}
+.button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #4682B4;
+    color: white;
+    
+}
+
+/* Display Section */
+
+.Products{
+    width: 1140px;
+    margin: auto;
+}
+
+.description{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: .5px solid #a4b0be;
+  padding: 20px;
+}
+.title-13{
+    padding-left: 20%;
+}
+
+.title-15{
+    padding-right: 5%;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+.contents{
+    
+    display: flex;
+    
+}
+.img-13
+{
+    padding-left: 120px;
+}
+.img-15{
+    margin-left: 20px;
+}
+figcaption{
+    width: 320px;
+    padding-left: 120px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.caption-13{
+    width: 320px;
+    margin-left: 180px ;
+    
+}
+.caption-15{
+    margin-left: auto;
+    padding-left: 15px;
+}
+
+.figure-13{
+    width: 680px;
+}
+.figure-15{
+    border-left: solid 1px  #a4b0be; 
+}
+.display{
+    margin-top: 20px;
+}
+
+/* PRice */
+
+.price{
+    width: 1140px;
+    margin: auto;
+    border-bottom: 1px solid #a4b0be;
+    border-top: 1px solid #a4b0be;
+    padding-bottom: 20px;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.values-13{
+    display:flex; 
+    width: 660px;
+    
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.values-15{
+    display:flex;
+    
+    width: 390px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.l1{
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-right: 40px;
+    padding-left: 120px;
+    
+}
+.l2{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 100px;
+    border-left: 1px solid #a4b0be;
+    border-right: 1px solid #a4b0be;
+}
+.l3{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 168px;
+    border-right: 1px solid #a4b0be;
+
+}
+.l5{
+    margin-right: 66px;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+.l6{
+    border-left: 1px solid #a4b0be;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.header-price{
+    padding-top: 10px;
+}
+
+/* Processor */
+.processor{
+    width: 1140px;
+    margin: auto;
+   
+}
+
+.container-3{
+    display: flex;
+    
+}
+.Processor-MacBook-13{
+    display: flex;
+    
+    width: 2300px
+    
+}
+.Processor-MacBook-15{
+    display: flex;
+    
+}
+h3{
+    font-weight: 400;
+    
+    
+}
+
+.p1{
+    border-right: 1px solid #a4b0be;
+    width: 200px;
+    padding-left: 90px;
+    padding-right: 8px;
+    padding-top: 10px;
+
+}
+.p2{
+    border-right: 1px solid #a4b0be;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+.p3{
+    border-right: 1px solid #a4b0be;
+    padding-top: 10px;
+    margin-right: -6px;
+    padding-right: 50px;
+    
+}
+.p4{
+    border-right: 1px solid #a4b0be;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+.p5{
+    
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+p{
+    font-weight: 400;
+}
